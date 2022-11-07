@@ -1,0 +1,42 @@
+body{
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.btn-modern{
+    padding:50px 70px;
+    border:none;
+    background-color: coral;
+    border-radius: 5px;
+    border-bottom: chocolate 2px solid;
+    font-size: 17px;
+    color:white;
+}
+
+.btn-modern:hover{
+    animation: animacion 0.4s ease-in;
+}
+
+@keyframes animacion {
+    0%{
+        padding:50px 70px;
+        border:none;
+        background-color: coral;
+        border-radius: 5px;
+        border-bottom: chocolate 2px solid;
+        font-size: 17px;
+        color:white; 
+        
+    }
+
+    100%{
+        transform: translateY(-5px);
+        box-shadow: 10px 10px 10px 10px firebrick;
+        background-color: brown;
+        color:darkgoldenrod;
+    }
+}
