@@ -1,1 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="container py-4">
+        <h5>Jumbotron</h5>
+        <!--Jumbotron y modal-->
+        <section>
+            <div class="container-fluid jumbotron bg-info px-4 py-4 rounded-3">
+                <h1 class="display-4">Custom Jumbotron</h1>
+                <p class="col-md-8 fs-6">
+                    This is a simple hero unit, a simple jumbotron-style component for
+                    calling extra attention to featured content or information.
+                </p>
+                <hr class="my-4" />
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Lanza modal
+                </button>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">...</div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                Close
+                            </button>
+                            <button type="button" class="btn btn-primary">
+                                Save changes
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Formulario-->
+        <section class="mt-4">
+            <h5>Formulario</h5>
+            <form action="">
+                <div class="mb-3">
+                    <label for="nombre" class="mb-2">Nombre</label>
+                    <input id="nombre" class="form-control" type="text" />
+                </div>
+                <div class="mb-3">
+                    <label for="telefono" class="mb-2">Telefono</label>
+                    <input id="telefono" class="form-control" type="number" />
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="mb-2">Mensaje</label>
+                    <input id="email" class="form-control" type="texarea" placeholder="mensaje" />
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-primary">Enviar formulario</button>
+
+                </div>
+            </form>
+
+
+        </section>
+        <!--Card-->
+        <section class="mt-4">
+            <h5>Tarjeta de presentación</h5>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top w-75" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNK4d0igyhvVVsYW2LIAn45LUbcWZpewEerQ&usqp=CAU" alt="foto-perfil">
+                <div class="card-body">
+                  <h5 class="card-title">Nombre ficticio</h5>
+                  <p class="card-text">Desarrollador experto en frontend. Formación en Openboot Camp</p>
+                  
+                </div>
+                <div class="card-footer pb-0">
+                    <p>miemail@inventado.com</p>
+                  </div>
+              </div>
+
+
+        </section>
+    </div>
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+</html>
