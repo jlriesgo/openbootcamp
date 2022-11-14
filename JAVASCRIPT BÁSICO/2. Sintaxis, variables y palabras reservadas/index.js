@@ -3,8 +3,6 @@ let edad = 39;
 let isDesarrollador = true;
 let fecha_nacimiento = new Date("1983 april 08");
 
-console.log(fecha_nacimiento)
-
 let libro_favorito = {
     titulo : "Reina Roja",
     autor : "Juan Gómez Jurado",
