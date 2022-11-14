@@ -6,7 +6,7 @@ let fecha_nacimiento = new Date("1983 april 08");
 let libro_favorito = {
     titulo : "Reina Roja",
     autor : "Juan Gómez Jurado",
-    fecha : "abril 2019",
+    fecha: new Date(1996, 0, 1),
     url : "https://amazon.es"
 
 }
