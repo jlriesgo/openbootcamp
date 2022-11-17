@@ -1,0 +1,2 @@
+{"level":"error","message":"Error de tipo Error: El valor debe ser de tipo número","service":"user-service"}
+{"level":"error","message":"Error de tipo ReferenceError: numero is not defined","service":"user-service"}
